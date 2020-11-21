@@ -43,7 +43,7 @@ export default {
         locationId: this.animalLocation,
       };
       // eslint-disable-next-line no-debugger
-     debugger;
+    //  debugger;
       this.$store.commit("ADDANIMAL", newAnimal);
       this.$router.push("/animals");
     },
